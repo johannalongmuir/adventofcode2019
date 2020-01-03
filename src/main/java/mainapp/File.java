@@ -9,12 +9,12 @@ public class File {
 
     // TODO add files to correct folder under AdventOfCode
 
-    static final String DAY_1 = "/Users/longmuirj/Documents/Practice/adventOfCode2019/DataAdventOfCode/input_day1.txt";
-    static final String DAY_2 = "/Users/longmuirj/Documents/Practice/adventOfCode2019/DataAdventOfCode/input_day2.txt";
-    static final String DAY_3 = "/Users/longmuirj/Documents/Practice/adventOfCode2019/DataAdventOfCode/input_day3.txt";
-    static final String DAY_4 = "240298-78496";
+    public static final String DAY_1 = "/Users/longmuirj/Documents/Practice/adventOfCode2019/DataAdventOfCode/input_day1.txt";
+    public static final String DAY_2 = "/Users/longmuirj/Documents/Practice/adventOfCode2019/DataAdventOfCode/input_day2.txt";
+    public static final String DAY_3 = "/Users/longmuirj/Documents/Practice/adventOfCode2019/DataAdventOfCode/input_day3.txt";
+    public static final String DAY_4 = "240298-78496";
 
-    String importFile(String inputFile) throws IOException {
+    public String importFile(String inputFile) throws IOException {
         StringBuilder returnString = new StringBuilder();
         try (FileReader fr = new FileReader(inputFile)) {
             BufferedReader br = new BufferedReader(fr);

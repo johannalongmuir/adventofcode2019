@@ -1,4 +1,4 @@
-package FuelCalculator;
+package fuelcalculator;
 
 import mainapp.ImplimentRunner;
 import mainapp.SplitInput;

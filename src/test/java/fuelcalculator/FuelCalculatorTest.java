@@ -1,4 +1,4 @@
-package FuelCalculator;
+package fuelcalculator;
 
 import mainapp.FeatureHandler;
 import org.assertj.core.api.Assertions;
