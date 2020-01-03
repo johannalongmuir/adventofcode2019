@@ -1,3 +1,5 @@
+package mainapp;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -7,9 +9,10 @@ public class File {
 
     // TODO add files to correct folder under AdventOfCode
 
-    static final String DAY_1 = "/Users/longmuirj/Documents/Practice/playground/playground/DataAdventOfCode/input_dayOne.txt";
-    static final String DAY_2 = "/Users/longmuirj/Documents/Practice/playground/playground/DataAdventOfCode/input_dayTwo.txt";
-    static final String DAY_3 = "/Users/longmuirj/Documents/Practice/playground/playground/DataAdventOfCode/input_dayThree.txt";
+    static final String DAY_1 = "/Users/longmuirj/Documents/Practice/adventOfCode2019/DataAdventOfCode/input_day1.txt";
+    static final String DAY_2 = "/Users/longmuirj/Documents/Practice/adventOfCode2019/DataAdventOfCode/input_day2.txt";
+    static final String DAY_3 = "/Users/longmuirj/Documents/Practice/adventOfCode2019/DataAdventOfCode/input_day3.txt";
+    static final String DAY_4 = "240298-78496";
 
     String importFile(String inputFile) throws IOException {
         StringBuilder returnString = new StringBuilder();

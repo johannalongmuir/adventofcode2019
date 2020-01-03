@@ -1,20 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71d21b39-0305-44e4-be21-4bb521323c1a" name="Default Changelist" comment="" />
+    <list default="true" id="71d21b39-0305-44e4-be21-4bb521323c1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataAdventOfCode/input_day1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataAdventOfCode/input_day2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataAdventOfCode/input_day3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FuelCalculator/FuelCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/intcodecomputer/IntcodeComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mainapp/SplitInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FuelCalculator/FuelCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mainapp/SplitInputTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mainapp/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FeatureHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mainapp/FeatureHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mainapp/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mainapp/ImplimentRunner.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myFlattenPackages" value="true" />
+    <option name="myAutoScrollToSource" value="true" />
+    <option name="myAutoScrollFromSource" value="true" />
+    <option name="myElementSize" value="248" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -24,6 +52,33 @@
     </option>
   </component>
   <component name="ProjectId" id="1VYtYV238wwAktEeZmBdH9DSrIr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="mainapp" />
+      <recent name="one" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="mainapp" />
+      <recent name="one" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -35,6 +90,93 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mainapp.Application" />
+      <module name="adventofcode2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mainapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FuelCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FuelCalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FuelCalculator" />
+      <option name="MAIN_CLASS_NAME" value="FuelCalculator.FuelCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FuelCalculatorTest.InvalidNumberReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FuelCalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FuelCalculator" />
+      <option name="MAIN_CLASS_NAME" value="FuelCalculator.FuelCalculatorTest" />
+      <option name="METHOD_NAME" value="InvalidNumberReturned" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FuelCalculatorTest.includeFuelForMassOfFuelNotBelow0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FuelCalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FuelCalculator" />
+      <option name="MAIN_CLASS_NAME" value="FuelCalculator.FuelCalculatorTest" />
+      <option name="METHOD_NAME" value="includeFuelForMassOfFuelNotBelow0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FuelCalculatorTest.turnONFeature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FuelCalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FuelCalculator" />
+      <option name="MAIN_CLASS_NAME" value="FuelCalculator.FuelCalculatorTest" />
+      <option name="METHOD_NAME" value="turnONFeature" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.FuelCalculatorTest" />
+        <item itemvalue="JUnit.FuelCalculatorTest.InvalidNumberReturned" />
+        <item itemvalue="JUnit.FuelCalculatorTest.includeFuelForMassOfFuelNotBelow0" />
+        <item itemvalue="JUnit.FuelCalculatorTest.turnONFeature" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,5 +190,32 @@
       <updated>1577441903579</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/adventofcode2019$SplitInputTest.ic" NAME="SplitInputTest Coverage Results" MODIFIED="1577962688363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>mainapp.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/adventofcode2019$FuelCalculatorTest.ic" NAME="FuelCalculatorTest Coverage Results" MODIFIED="1577962815730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>FuelCalculator.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/adventofcode2019$FuelCalculatorTest_InvalidNumberReturned.ic" NAME="FuelCalculatorTest.InvalidNumberReturned Coverage Results" MODIFIED="1577962729456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>one.*</FILTER>
+    </SUITE>
   </component>
 </project>
