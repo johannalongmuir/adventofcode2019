@@ -8,7 +8,12 @@ public class FeatureHandler {
     public static boolean FEATURE_RESTORE_GRAVITY_ASSIST_PROGRAM1202 = true;
     public static boolean FEATURE_FIND_NOUN_VERB_INPUT_FOR_ADDRESS_ZERO = false;
     public static boolean FEATURE_GET_MANHATTAN_DISTANCE = true;
-    public static boolean NUMBER_OF_STEPS_TO_MANHATTAN = true;
+    public static boolean FEATURE_LOWEST_NUMBER_OF_STEPS_TO_CROSSED_WIRE= true;
+
+    public static void setFeatureLowestNumberOfStepsToCrossedWire(boolean featureLowestNumberOfStepsToCrossedWire) {
+        FEATURE_LOWEST_NUMBER_OF_STEPS_TO_CROSSED_WIRE = featureLowestNumberOfStepsToCrossedWire;
+    }
+
 
     public static void setScannerInputOn(boolean scannerInputOn) {
         SCANNER_INPUT_ON = scannerInputOn;
@@ -25,4 +30,6 @@ public class FeatureHandler {
     public static void setFeatureFindNounVerbInputForAddressZero(boolean featureFindNounVerbInputForAddressZero) {
         FEATURE_FIND_NOUN_VERB_INPUT_FOR_ADDRESS_ZERO = featureFindNounVerbInputForAddressZero;
     }
+
+
 }
