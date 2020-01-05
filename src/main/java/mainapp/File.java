@@ -6,9 +6,6 @@ import java.io.IOException;
 
 public class File {
     //TODO add exceptions + try and catch for importing the file
-
-    // TODO add files to correct folder under AdventOfCode
-
     public static final String DAY_1 = "/Users/longmuirj/Documents/Practice/adventOfCode2019/DataAdventOfCode/input_day1.txt";
     public static final String DAY_2 = "/Users/longmuirj/Documents/Practice/adventOfCode2019/DataAdventOfCode/input_day2.txt";
     public static final String DAY_3 = "/Users/longmuirj/Documents/Practice/adventOfCode2019/DataAdventOfCode/input_day3.txt";

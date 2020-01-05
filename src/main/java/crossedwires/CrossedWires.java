@@ -1,5 +1,6 @@
 package crossedwires;
 
+import drawdirections.DrawDirections;
 import mainapp.FeatureHandler;
 import mainapp.ImplimentRunner;
 import mainapp.SplitInput;
@@ -32,6 +33,10 @@ public class CrossedWires implements ImplimentRunner {
         } else {
             calculateManhattan();
         }
+//        if (true){
+//            DrawDirections drawDirections = new DrawDirections();
+//            drawDirections.drawWires(wireOne,wireTwo,duplicates);
+//        }
     }
 
     private void findAllCrossoverPoints() {
@@ -42,10 +47,10 @@ public class CrossedWires implements ImplimentRunner {
     private void calculateManhattan() {
         for (String location: duplicates) {
             String[] split = location.split(":");
-            int xAxisForCrossover = Math.abs(Integer.parseInt(split[0]));
-            int yAxisForCrossover = Math.abs(Integer.parseInt(split[1]));
-            if (xAxisForCrossover + yAxisForCrossover < manhattanDistance) {
-                manhattanDistance = xAxisForCrossover + yAxisForCrossover;
+            int xAxis = Math.abs(Integer.parseInt(split[0]));
+            int yAxis = Math.abs(Integer.parseInt(split[1]));
+            if (xAxis + yAxis < manhattanDistance) {
+                manhattanDistance = xAxis + yAxis;
             }
             result = "Manhattan Distance (Closest to 0,0): " + manhattanDistance;
         }
