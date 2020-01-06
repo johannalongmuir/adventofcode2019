@@ -46,9 +46,9 @@ public class CrossedWires implements ImplimentRunner {
 
     private void calculateManhattan() {
         for (String location: duplicates) {
-            String[] split = location.split(":");
-            int xAxis = Math.abs(Integer.parseInt(split[0]));
-            int yAxis = Math.abs(Integer.parseInt(split[1]));
+            String[] xAndYCoordinates = location.split(":");
+            int xAxis = Math.abs(Integer.parseInt(xAndYCoordinates[0]));
+            int yAxis = Math.abs(Integer.parseInt(xAndYCoordinates[1]));
             if (xAxis + yAxis < manhattanDistance) {
                 manhattanDistance = xAxis + yAxis;
             }
